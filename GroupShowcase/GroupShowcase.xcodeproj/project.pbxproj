@@ -12,6 +12,7 @@
 		8555AD8C2371EB4400935856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8555AD8A2371EB4400935856 /* Main.storyboard */; };
 		8555AD8E2371EB4500935856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8555AD8D2371EB4500935856 /* Assets.xcassets */; };
 		8555AD912371EB4500935856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8555AD8F2371EB4500935856 /* LaunchScreen.storyboard */; };
+		8555ADA22371EF7C00935856 /* Companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8555ADA02371EF7C00935856 /* Companion.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8555AD8D2371EB4500935856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8555AD902371EB4500935856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8555AD922371EB4500935856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8555ADA12371EF7C00935856 /* Companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Companion.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		8555AD992371EB6300935856 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8555ADA02371EF7C00935856 /* Companion.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8555ADA22371EF7C00935856 /* Companion.xcdatamodeld in Sources */,
 				8555AD852371EB4400935856 /* AppDelegate.swift in Sources */,
 				8555AD872371EB4400935856 /* SceneDelegate.swift in Sources */,
 			);
@@ -382,6 +386,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8555ADA02371EF7C00935856 /* Companion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8555ADA12371EF7C00935856 /* Companion.xcdatamodel */,
+			);
+			currentVersion = 8555ADA12371EF7C00935856 /* Companion.xcdatamodel */;
+			path = Companion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8555AD792371EB4400935856 /* Project object */;
 }
